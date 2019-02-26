@@ -1,5 +1,5 @@
 {
-  "name": "github-dependency-network",
+  "name": "pkg-dependency-network",
   "version": "0.0.0-dev",
   "description": "",
   "main": "index.js",
