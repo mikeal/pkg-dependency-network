@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 const deps = require('./lib/deps')
-const org = require('./lib/org')
 const fullOrg = require('./')
 const log = require('single-line-log').stdout
 

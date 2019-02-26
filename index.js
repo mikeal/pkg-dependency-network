@@ -26,4 +26,3 @@ const run = async (_org, ghtoken, liotoken, log) => {
 }
 
 module.exports = run
-
