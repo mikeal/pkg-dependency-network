@@ -6,12 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "pkg-dependency-network": "./cli.js"
+  },
   "keywords": [],
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
   "license": "(Apache-2.0 AND MIT)",
   "dependencies": {
     "bent": "^1.3.0",
+    "node-github-graphql": "^0.2.7",
     "parse-link-header": "^1.0.1",
+    "single-line-log": "^1.1.2",
+    "sleep-promise": "^8.0.1",
     "yargs": "^13.1.0"
   },
   "devDependencies": {
