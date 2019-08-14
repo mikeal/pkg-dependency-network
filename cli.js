@@ -5,7 +5,7 @@ const log = require('single-line-log').stdout
 
 const ghargs = yargs => {
   yargs.option('ghtoken', {
-    default: process.env.GHTOKEN,
+    default: process.env.GHTOKEN || process.env.GITHUB_TOKEN,
     desc: 'GitHub token, defaults to $GHTOKEN'
   })
 }
